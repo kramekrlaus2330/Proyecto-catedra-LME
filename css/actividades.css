@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/*Menu*/
+
+.container-section{
+    background-color: #fff;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-family: 'Lobster', Tahoma, Geneva, Verdana, sans-serif, cursive;
+}
+
+.subtitulo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    
+}
+
+.box{
+    display: inline-flex;
+    position: relative; 
+    max-width: 100%;
+}
+
+.img{
+    height: 300px;
+    min-width: 24%;
+    min-height: 18%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+  .img:hover {
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  }
+
+.parrafo{
+    padding: 0rem 1rem;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans JP', sans-serif, serif, Tahoma, Geneva, Verdana;
+    text-align: center;   
+}
+/*responsive*/
+
+/*Responsive iPad*/  
+@media only screen and (max-width: 790px) {
+    .box{
+        display: block;
+        position: relative; 
+        max-width: 100%;
+    }
+    .img{
+        height: 200px;
+        width: 200px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .parrafo{
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 1.2rem;
+        font-family: 'Noto Sans JP', sans-serif, serif, Tahoma, Geneva, Verdana;
+        text-align: center;   
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .img{
+        height: 210px;
+        width: 318px;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .img{
+        height: 180px;
+        width: 204px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .img{
+        height: 180px;
+        width: 280px;
+        margin: 0rem 2.1rem;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .img{
+        width: 278px;
+        margin: 0rem 1rem;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .img{
+        margin: 0rem 0.6rem;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .img{
+        width: 254px;
+        margin: 0rem;
+    }
+  }
+
+
+
