@@ -51,11 +51,11 @@
     text-align: center;   
 }
 /*responsive*/
-
-/*Responsive iPad*/  
+ 
 @media only screen and (max-width: 790px) {
     .box{
         display: block;
+        text-align: center;
         position: relative; 
         max-width: 100%;
     }
